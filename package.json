@@ -1,15 +1,41 @@
 {
   "name": "nextjs_boilerplate",
   "version": "0.1.0",
-  "private": true,
+  "author": {
+    "name": "Sonjoy Datta",
+    "email": "sonjoy.dat@gmail.com",
+    "url": "https://sonjoydatta.me"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "type-check": "tsc"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.5.1",
+    "dotenv": "^9.0.2",
     "next": "10.2.0",
+    "next-redux-wrapper": "^6.0.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
-  }
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/next-redux-wrapper": "^3.0.0",
+    "@types/node": "^15.3.0",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.5",
+    "@types/react-redux": "^7.1.16",
+    "@types/redux": "^3.6.0",
+    "@types/redux-thunk": "^2.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.26.0",
+    "eslint-plugin-react": "^7.23.2",
+    "typescript": "^4.2.4"
+  },
+  "license": "MIT"
 }
